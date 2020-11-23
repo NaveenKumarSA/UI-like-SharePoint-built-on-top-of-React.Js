@@ -1,6 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Button, Card, Navbar, Nav, NavDropdown, Row, Col } from "react-bootstrap";
+import {
+  Button,
+  Card,
+  Navbar,
+  Nav,
+  NavDropdown,
+  Row,
+  Col,
+} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarComponent from "./components/NavbarComponent";
 import CarouselComponent from "./components/CarouselComponent";
@@ -14,19 +22,17 @@ function App() {
       <div className="navbarComponent">
         <NavbarComponent />
       </div>
-      <Row>
-        <Col className="carouselComponent">
-          <CarouselComponent />
-         
-        </Col>
-        <div className="carouselComponent">
-        
-          <SubMainComponent />
-        </div>
-      </Row>
+      <div>
+        <CarouselComponent />
+      </div>
       <div>
         <MainpageComponent />
       </div>
+
+      <div>
+        <SubMainComponent />
+      </div>
+
       <div>
         <FooterComponent />
       </div>
