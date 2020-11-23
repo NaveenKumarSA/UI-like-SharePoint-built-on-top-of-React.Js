@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.navbarComponent {
+  margin-top: -5px;
+}
+.userButton{
+  margin-top: -15px;
+  margin-right: 15px;
+}
+.carouselComponent {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 50%;
+}
+.footerComponent {
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .carouselComponent {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+  }
+}
+.documentsButton{
+  margin-right:5px ; 
+  padding :2px;
+  margin-left:5px ;
+}
