@@ -17,7 +17,7 @@ export class SubMainComponent extends Component {
                   <div
                     className="border border-dark link-box"
                     style={{
-                      backgroundColor: "lightseagreen",
+                      backgroundColor: "tomato",
                       padding: "2px",
                       paddingTop: "50px",
                       paddingBottom: "30px",
@@ -45,6 +45,18 @@ export class SubMainComponent extends Component {
                     className="border border-dark link-box"
                     style={{
                       backgroundColor: "lightseagreen",
+                      padding: "2px",
+                      paddingTop: "50px",
+                      paddingBottom: "30px",
+                      margin: "5px",
+                    }}
+                  >
+                    <h5>Expenses</h5>
+                  </div>
+                  <div
+                    className="border border-dark link-box"
+                    style={{
+                      backgroundColor: "tomato",
                       padding: "2px",
                       paddingTop: "50px",
                       paddingBottom: "30px",
